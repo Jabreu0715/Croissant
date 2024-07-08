@@ -1,5 +1,8 @@
 body {
   background-color: beige;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
 }
 h1 {
   text-align: center;
@@ -15,15 +18,16 @@ p {
 a {
   color: green;
 }
-.conatiner {
-  display: flex;
-}
 .email {
   text-align: center;
   font-size: 18px;
   display: block;
   margin: 0 auto;
   padding: 20px;
+}
+.row {
+  max-width: 400px;
+  margin: 0 auto;
 }
 .col-sm-4 {
   display: flex;
